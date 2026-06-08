@@ -210,8 +210,8 @@ async def export_csv(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("✅ CSV exported! Just drag this file into Google Sheets.")
 # ---------- MAIN ----------
 def main():
-    # IMPORTANT: Replace with your actual bot token from BotFather
-    TOKEN = os.environ.get("TELEGRAM_TOKEN", "8889524999:AAE-0YXg3XGti_Vm-7iORMTl4m3RcuNM7_U")
+    # Get token from environment variable (Render) or use default
+    TOKEN = os.environ.get("TELEGRAM_TOKEN", "YOUR_BOT_TOKEN_HERE")
     
     app = Application.builder().token(TOKEN).build()
     
