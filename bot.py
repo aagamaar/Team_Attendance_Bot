@@ -211,7 +211,7 @@ async def export_csv(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # ---------- MAIN ----------
 def main():
     # IMPORTANT: Replace with your actual bot token from BotFather
-    TOKEN = "8889524999:AAE-0YXg3XGti_Vm-7iORMTl4m3RcuNM7_U"
+    TOKEN = os.environ.get("TELEGRAM_TOKEN", "8889524999:AAE-0YXg3XGti_Vm-7iORMTl4m3RcuNM7_U")
     
     app = Application.builder().token(TOKEN).build()
     
