@@ -1,6 +1,10 @@
 import os
 from flask import Flask
 import threading
+import sqlite3
+from datetime import datetime, date
+from telegram import Update
+from telegram.ext import Application, CommandHandler, ContextTypes
 
 # Create Flask app for health checks
 flask_app = Flask(__name__)
@@ -15,10 +19,6 @@ def run_flask():
 
 # Start Flask in background thread
 threading.Thread(target=run_flask, daemon=True).start()
-import sqlite3
-from datetime import datetime, date
-from telegram import Update
-from telegram.ext import Application, CommandHandler, ContextTypes
 
 # ---------- DATABASE SETUP ----------
 conn = sqlite3.connect('attendance.db', check_same_thread=False)
