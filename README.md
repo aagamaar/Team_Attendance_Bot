@@ -39,7 +39,6 @@ So v1 is deliberately minimal — one Python file, one SQLite database, one team
 
 ## 📸 Screenshots
 
-| User View | Admin View |
 |-----------|------------|
 | ![User screenshot placeholder](screenshots/user-view1.jpg) | ![Admin screenshot placeholder](screenshots/user-view2.jpg) |
 
