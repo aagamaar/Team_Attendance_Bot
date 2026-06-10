@@ -9,6 +9,13 @@
 
 ---
 
+## 🔗 Project Links
+
+**Live Demo:** [https://t.me/Team1Attendance2_bot](https://t.me/Team1Attendance2_bot)  
+**GitHub Repository:** [https://github.com/aagamaar/Team_Attendance_Bot](https://github.com/aagamaar/Team_Attendance_Bot)
+
+---
+
 ## The Problem
 
 Small teams track attendance through daily WhatsApp polls. Admins count responses by hand, employees get notification fatigue, and leave balances live in a separate spreadsheet that's always slightly out of date.
