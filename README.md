@@ -30,6 +30,12 @@ So v1 is deliberately minimal — one Python file, one SQLite database, one team
 - 📋 Daily team view and monthly summary for admins
 - 📥 One-command CSV export, ready to drop into Google Sheets
 
+## 📸 Screenshots
+
+| User View | Admin View |
+|-----------|------------|
+| ![User screenshot placeholder](screenshots/user-view1.jpg) | ![Admin screenshot placeholder](screenshots/user-view2.jpg) |
+
 ## 🎯 Commands
 
 | Command | What it does |
