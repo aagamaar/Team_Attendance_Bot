@@ -39,8 +39,8 @@ So v1 is deliberately minimal — one Python file, one SQLite database, one team
 
 ## 📸 Screenshots
 
-|-----------|------------|
-| ![User screenshot placeholder](screenshots/user-view1.jpg) | ![Admin screenshot placeholder](screenshots/user-view2.jpg) |
+![User screenshot placeholder](screenshots/user-view1.jpg)
+![Admin screenshot placeholder](screenshots/user-view2.jpg) 
 
 ## 🎯 Commands
 
